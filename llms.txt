@@ -1,0 +1,17 @@
+# TesisLab Expertos
+
+> Asesoría de tesis en línea para estudiantes de licenciatura, maestría y doctorado de todas las universidades de Panamá. Apoyo en metodología de la investigación, análisis de datos en SPSS y Atlas.ti, corrección de observaciones del jurado y formato APA 7. Primera orientación gratis.
+
+TesisLab Expertos opera desde el 1 de febrero de 2023 en Santiago de Veraguas y atiende 100 % en línea por WhatsApp y Google Meet a estudiantes de cualquier provincia. El asesor principal es Juan Carlos Chávez Pinzón, especialista en Docencia Superior por la Universidad de Panamá.
+
+## Servicios
+- [Asesoría de tesis por capítulos, informes de práctica, anteproyectos y monografías](https://tesislabexpertos.github.io/tesislab-web/#servicios)
+- [Preguntas frecuentes](https://tesislabexpertos.github.io/tesislab-web/#preguntas)
+
+## Recursos gratuitos
+- [Plantilla de tesis en Word con normas APA 7](https://tesislabexpertos.github.io/tesislab-web/plantilla-apa7.html)
+
+## Contacto
+- WhatsApp: https://wa.me/50768138959
+- Correo: tesislabexpertos@gmail.com
+- [Todos los enlaces y redes](https://tesislabexpertos.github.io/tesislab-web/enlaces.html)
