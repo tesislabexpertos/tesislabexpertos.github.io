@@ -4,4 +4,4 @@ Disallow: /tesislab-web/promo/
 Disallow: /tesislab-web/correos/
 Disallow: /tesislab-web/mis-enlaces/
 
-Sitemap: https://tesislabexpertos.github.io/tesislab-web/sitemap.xml
+Sitemap: https://tesislabexpertos.com/tesislab-web/sitemap.xml
