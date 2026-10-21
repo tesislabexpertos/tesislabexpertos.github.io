@@ -3,5 +3,6 @@ Allow: /
 Disallow: /tesislab-web/promo/
 Disallow: /tesislab-web/correos/
 Disallow: /tesislab-web/mis-enlaces/
+Disallow: /media/
 
 Sitemap: https://tesislabexpertos.com/tesislab-web/sitemap.xml
