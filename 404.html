@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>Te estamos redirigiendo | TesisLab Expertos</title>
+<script>
+(function () {
+  var ruta = decodeURIComponent(location.pathname).toLowerCase().replace(/^\/+/, '');
+  var destino = ruta.indexOf('regalo') === 0 ? '/tesislab-web/regalo.html?src=libro' : '/tesislab-web/';
+  location.replace(destino);
+})();
+</script>
+<style>body{margin:0;font-family:Segoe UI,Roboto,Arial,sans-serif;background:#f5f6f9;color:#1d2433;display:grid;place-items:center;min-height:100vh;text-align:center;padding:16px}a{color:#1A2A4F;font-weight:700}</style>
+</head>
+<body>
+<p>Te estamos llevando a <a href="/tesislab-web/">TesisLab Expertos</a>.</p>
+</body>
+</html>
