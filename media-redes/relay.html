@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="es"><head><meta charset="utf-8"><meta name="robots" content="noindex"><title>TesisLab media</title></head>
+<body><p id="s">Cargando...</p>
+<script>
+(async () => {
+  const ids = (new URLSearchParams(location.search).get('ids') || '').split(',').filter(Boolean);
+  const out = [];
+  for (const id of ids) {
+    const r = await fetch('./' + id);
+    out.push({ id, type: r.headers.get('content-type'), buf: await r.arrayBuffer() });
+  }
+  if (window.opener) {
+    window.opener.postMessage({ tlRelay: true, files: out }, '*', out.map(o => o.buf));
+    document.getElementById('s').textContent = 'Listo';
+    setTimeout(() => window.close(), 500);
+  } else {
+    document.getElementById('s').textContent = 'Sin ventana de origen';
+  }
+})();
+</script></body></html>
